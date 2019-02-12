@@ -1,0 +1,41 @@
+//@format
+
+.citation,
+%citation {
+    &__container {
+        @include callout($green-lighter);
+    }
+    &__text {
+        font-size: 1.2rem;
+    }
+    &__pdf-display {
+        border: 1px solid #ccc;
+    }
+    &__metadata {
+        
+    }
+    &__metadata-label {
+        @extend h2;
+    }
+}
+
+//######################//
+// ~~There be Dragons~~ //
+//######################//
+.csl-bib-body {
+    @extend %citation__container;
+}
+.csl-entry {
+    @extend %citation__text;
+}
+#islandora-pdfjs iframe {
+    @extend %citation__pdf-display;
+}
+.ir_citationCModel  > fieldset .fieldset-legend {
+    @extend %citation__metadata-label;
+}
+.ir_citationCModel table tr > td:first-child {
+    //font-weight:bold;
+    width: 120px;
+    color: #497b06;
+}

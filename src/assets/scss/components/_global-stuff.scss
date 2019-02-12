@@ -1,0 +1,38 @@
+a {
+    color: #5a9607;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+}
+
+[type="submit"] {
+    @extend .button;
+}
+
+
+
+%green-box { 
+    background: #efffd8;
+    //background: $light-green;
+    border: 1px solid $green;
+    //border: 1px solid #8ec641;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-width: 8px 0 4px;
+    padding: .5rem;
+}
+
+#date-range-slider-canvas-0 {
+    width: 100% !important;
+}
+
+metadata dl {
+    display:none !important;
+    dt {
+        text-align:right;
+    }
+}
