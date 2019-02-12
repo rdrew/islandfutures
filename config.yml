@@ -1,12 +1,11 @@
     #Url of the site to be proxied
-URL: "cbufaces.cairnrepo.org"
+URL: "islandfutures.vre3.upei.ca"
 
     #Root assets folder (contains /css/, /js/ etc)
 ASSETS_DIR: "dist/assets"
 
     #Path on server to remote assets folder (escape the slashes; no trailing slash)
-REMOTE_ASSETS_PATH: "http://cbufaces.cairnrepo.org/sites/cbufaces.cairnrepo.org/themes/cbu_scholar/dist/assets"
-
+REMOTE_ASSETS_PATH: "http://islandfutures.vre3.upei.ca/sites/islandfutures.vre3.upei.ca/themes/islandfutures/dist/assets"
 LOCALPROXY: "http://drupal7.dev/"
 
     # Your project's server will run on localhost:xxxx at this port
