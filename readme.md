@@ -1,4 +1,3 @@
 
-# cbu_islandscholar
-## D7 theme for CBU
-# cbu_scholar
+# Custom D7 theme for island futures
+## uses foundation 6 & Omega base theme 
